@@ -206,27 +206,51 @@ header{
     background: rgb(34, 34, 34);
     justify-content: center;
     align-items: center;
-    padding: 30px;
-    gap: 200px;
+    padding: 40px 10px 30px 50px;
+    gap: 180px;
 }
 .run_content{
     max-width: 40%;
 }
 .run_content > h2{
-    margin: 15px 0;
+    margin: 0;
 }
 .run_content > p{
     margin-bottom: 32px;
 }
-.run_img{
-    max-width:35%;
+.run_img>img{
+    max-width:90%;
     height: 310px;
     border-radius: 18px;
     object-fit: none;
-    object-position: 66% 30%;
+    object-position: 68% 30%;
 }
 
 
+/* type container */
+.type_container{
+    justify-content: space-between;
+}
+.type_pic{
+    max-width: 45%;
+}
+.type_pic>img{
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+}
+.experience_text{
+    position: absolute;
+    border-radius: 18px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 480px;
+    padding: 20px;
+    margin-top: -335px;
+    margin-left: 10px;
+}
+.home>.experience_text>p{
+    margin-bottom: 35px;
+}
 
 
 /* BMI Calculator */
