@@ -22,13 +22,15 @@
     .habit_info,
     .run_container,
     .calculator_container,
-    .brand_info{
+    .brand_info,
+    .type_container{
         flex-direction: column;
         gap: 32px;
     }
     .banner_content,
     .run_content,
-    .team_content{
+    .team_content,
+    .type_pic{
         max-width: 100%;
     }
     .banner_content>button{
@@ -57,7 +59,8 @@
     .habit_container,
     .run_container,
     .bmi_content,
-    .image_container{
+    .image_container,
+    .type_container{
         margin: 0 20px;
     }
     .habit_info{
@@ -100,5 +103,14 @@
     }
     .contact_title{
         margin-top: 0;
+    }
+    .experience_text{
+        max-width: 73%;
+        margin-top: -305px;
+    }
+    .studio>.experience_text>button,
+    .home>.experience_text>button{
+        font-size: 1rem;
+        padding: 13px 27px;
     }
 }
