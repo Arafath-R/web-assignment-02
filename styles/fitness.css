@@ -58,7 +58,7 @@ main > section{
 
 
 header{
-    background: linear-gradient(0deg, rgba(17, 17, 17,1)100%,rgba(119, 119, 119, 0.5));
+    background-image: linear-gradient(to bottom, #101010, #2e2e2ec8, #000000);
 }
 
 .navbar,.banner{
@@ -69,6 +69,7 @@ header{
     color: rgb(230, 83, 60);
     font-size: 2.25rem;
     font-weight: 900;
+    margin: 50px 0;
 }
 .navbar{
     justify-content: space-between;
@@ -81,6 +82,7 @@ header{
     gap: 48px;
     height: 45px;
     padding: 0;
+    margin: 50px 0;
 }
 .nav_item{
     list-style: none;
@@ -109,7 +111,7 @@ header{
     gap: 50px; 
 }
 .banner_content{
-    width: 50%;
+    width:580px;
 }
 .banner_title{
     font-size: 5rem;
@@ -391,7 +393,7 @@ select option{
 .brand_content{
     max-width: 450px;
 }
-.brand_title{
+.brand_title_footer{
     color: rgb(230, 83, 60);
     font-size: 4.4rem;
     margin-bottom: 20px;
@@ -417,18 +419,4 @@ select option{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.25rem;
     padding: 36px 0;
-}
-
-
-/* responsive media query */
-@media screen and (max-width:576px) {
-    .nav_links{
-        display: none;
-    }
-    .hamb_icon{
-        
-    }
-    .banner{
-        flex-direction: column;
-    }
 }
