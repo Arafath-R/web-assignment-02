@@ -3,6 +3,12 @@
     header{
         padding: 0 20px;
     }
+    main>section{
+        margin: 60px auto;
+    }
+    .section_title{
+        font-size: 2rem;
+    }
     .nav_links,
     .btn_primary>span{
         display: none;
@@ -10,13 +16,18 @@
     .hamb_icon{
         display: block;
     }
-    .banner{
+    .banner,
+    .habit_info,
+    .run_container{
         flex-direction: column;
+        gap: 32px;
     }
-    .banner_content{
+    .banner_content,
+    .run_content,
+    .run_img{
         max-width: 100%;
     }
-    .btn_style,.btn_primary{
+    .banner_content>button{
         margin: 0;
         padding: 15px 33px;
     }
@@ -38,4 +49,20 @@
         margin-top: -550px; 
         padding: 0 15px;
     }
+
+    .habit_container,
+    .run_container{
+        margin: 0 25px;
+    }
+    .habit_info{
+        padding: 0 42px;
+    }
+    .run_content>button{
+        width: 100%;
+    }
+    .run_img{ 
+        height: 180px;
+        object-fit: cover;
+    }
+
 }

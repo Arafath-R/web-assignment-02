@@ -20,9 +20,6 @@
 
 
 /* shared styles */
-.hide{
-    display: none;
-}
 body{
     background-color: black;
     color: white;
@@ -111,7 +108,7 @@ header{
     gap: 50px; 
 }
 .banner_content{
-    width:580px;
+    max-width:50%;
 }
 .banner_title{
     font-size: 5rem;
@@ -213,7 +210,7 @@ header{
     gap: 200px;
 }
 .run_content{
-    width: 40%;
+    max-width: 40%;
 }
 .run_content > h2{
     margin: 15px 0;
@@ -222,7 +219,7 @@ header{
     margin-bottom: 32px;
 }
 .run_img{
-    width:35%;
+    max-width:35%;
     height: 310px;
     border-radius: 18px;
     object-fit: none;
