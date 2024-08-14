@@ -250,7 +250,7 @@ header{
     font-size: 1.75rem;
     font-weight: 900;
     margin-top: 50px;
-    width: 450px;
+    max-width: 450px;
 }
 
 table{
@@ -282,7 +282,6 @@ th{
 .input_info{
     display: grid;
     gap: 15px;
-    /* grid-template-columns: repeat(2,1fr); */
     margin: 34px 0;
 }
 .box_height{
@@ -319,10 +318,11 @@ select{
 select option{
     color: black;
 }
+
 /* trainer styles */
 
 .team_content{
-    width: 60%;
+    max-width: 60%;
     text-align: center;
     margin: 0 auto;
 }

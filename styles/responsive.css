@@ -10,7 +10,9 @@
         font-size: 2rem;
     }
     .nav_links,
-    .btn_primary>span{
+    .btn_primary>span,
+    .trainer_1,
+    .trainer_4{
         display: none;
     }
     .hamb_icon{
@@ -18,13 +20,16 @@
     }
     .banner,
     .habit_info,
-    .run_container{
+    .run_container,
+    .calculator_container,
+    .brand_info{
         flex-direction: column;
         gap: 32px;
     }
     .banner_content,
     .run_content,
-    .run_img{
+    .run_img,
+    .team_content{
         max-width: 100%;
     }
     .banner_content>button{
@@ -51,8 +56,10 @@
     }
 
     .habit_container,
-    .run_container{
-        margin: 0 25px;
+    .run_container,
+    .bmi_content,
+    .image_container{
+        margin: 0 20px;
     }
     .habit_info{
         padding: 0 42px;
@@ -64,5 +71,28 @@
         height: 180px;
         object-fit: cover;
     }
-
+    .calculator_container{
+        margin-top: 35px;
+        padding: 0 20px;
+    }
+    .input_info > select ,.input_info > input{
+        padding: 12px 0 12px 20px;
+    }
+    .bmi_info>button{
+        width: 60%;
+    }
+    .team_content{
+        margin: 0 42px;
+    }
+    .image_container{
+        height: 1220px;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 35px;
+    }
+    .footer_area{
+        padding: 0 20px;
+    }
+    .contact_title{
+        margin-top: 0;
+    }
 }
