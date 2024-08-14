@@ -33,29 +33,42 @@
     .type_pic{
         max-width: 100%;
     }
-    .banner_content>button{
+     .btn{
+        display: flex;
+        max-width:100%;
+        gap: 5px;
+     }
+     .btn>button{
         margin: 0;
-        padding: 15px 33px;
-    }
+        width: 50%;
+        font-size: 1rem;
+        padding: 15px 30px;
+     }
     .banner_title{
         font-size: 2.25rem;
-        width: 290px;
+        width: 85%;
     }
     .banner_description{
-        width: 290px;
+        width: 85%;
     }
     .miama_font{
         font-size: 5.1rem;
     }
     .banner_image>img{
         margin: 0;
+        max-width: 100%;
     }
     .card_info{
-        margin-left: 185px;
-        margin-top: -550px; 
-        padding: 0 15px;
+        margin-left: 150px;
+        margin-top: -400px; 
+        padding: 0 5px;
     }
-
+    .card_content>h3,.card_info>h2{
+        font-size: 1.25rem;
+    }
+    .card_content>p,.card_info>p{
+        font-size: .75rem;
+    }
     .habit_container,
     .run_container,
     .bmi_content,
@@ -84,8 +97,11 @@
         margin-top: 35px;
         padding: 0 20px;
     }
-    .input_info > select ,.input_info > input{
-        padding: 12px 0 12px 20px;
+    .input_info>input ,.input_info>select{
+        padding: 10px 0 10px 5px;
+    }
+    .input_info>input ,.input_info>.box_gender{
+        width: 100%;
     }
     .bmi_info>button{
         width: 60%;
@@ -105,12 +121,13 @@
         margin-top: 0;
     }
     .experience_text{
-        max-width: 73%;
+        width: 78%;
+        margin: 0 auto;
         margin-top: -305px;
     }
-    .studio>.experience_text>button,
-    .home>.experience_text>button{
+    .studio>.experience_text>.btn>button,
+    .home>.experience_text>.btn>button{
         font-size: 1rem;
-        padding: 13px 27px;
+        padding: 14px 26px;
     }
 }
